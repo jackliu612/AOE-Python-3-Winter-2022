@@ -7,7 +7,7 @@ screen = pygame.display.set_mode(size)
 classicmusic = pygame.mixer.music
 classicmusic.load("scarboroughFair.mp3")
 classicmusic.set_volume(1)
-classicmusic.play(start=10)
+classicmusic.play(loops=5, start=10)
 
 ticks = 0
 
